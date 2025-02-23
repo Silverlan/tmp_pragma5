@@ -164,8 +164,9 @@
 #include <pragma/entities/components/parent_component.hpp>
 #include <pragma/lua/lua_util_component_stream.hpp>
 #include <pragma/lua/converters/game_type_converters_t.hpp>
-#include <util_image_buffer.hpp>
 #include <luabind/copy_policy.hpp>
+
+import pragma.image;
 
 namespace Lua {
 	namespace PBRConverter {

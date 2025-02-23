@@ -12,8 +12,6 @@
 #include "pragma/entities/components/renderers/c_rasterization_renderer_component.hpp"
 #include "pragma/rendering/raytracing/cycles.hpp"
 #include "pragma/entities/environment/c_env_camera.h"
-#include <util_image.hpp>
-#include <util_image_buffer.hpp>
 #include <image/prosper_sampler.hpp>
 #include <image/prosper_texture.hpp>
 #include <image/prosper_render_target.hpp>
@@ -21,6 +19,8 @@
 #include <prosper_command_buffer.hpp>
 #include <prosper_window.hpp>
 #include <fsys/ifile.hpp>
+
+import pragma.image;
 
 extern DLLCLIENT CEngine *c_engine;
 extern DLLCLIENT ClientState *client;

@@ -22,8 +22,9 @@
 #include <mathutil/umath_lighting.hpp>
 #include <pragma/entities/environment/lights/c_env_light.h>
 #include <sharedutils/util_baking.hpp>
-#include <util_image.hpp>
 #include <fsys/ifile.hpp>
+
+import pragma.image;
 
 extern DLLCLIENT CEngine *c_engine;
 

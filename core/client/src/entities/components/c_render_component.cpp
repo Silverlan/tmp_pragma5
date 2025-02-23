@@ -46,7 +46,8 @@
 #include <pragma/entities/entity_iterator.hpp>
 #include <pragma/lua/converters/game_type_converters_t.hpp>
 #include <pragma/console/sh_cmd.h>
-#include <util_image.hpp>
+
+import pragma.image;
 
 using namespace pragma;
 

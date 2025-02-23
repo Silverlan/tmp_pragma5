@@ -40,7 +40,6 @@
 #include <prosper_render_pass.hpp>
 #include <prosper_fence.hpp>
 #include <prosper_descriptor_set_group.hpp>
-#include <util_image_buffer.hpp>
 #include "pragma/util/util_image.hpp"
 #include "pragma/model/vk_mesh.h"
 #include <prosper_event.hpp>
@@ -51,6 +50,8 @@
 #include <luabind/copy_policy.hpp>
 #include <luabind/detail/meta.hpp>
 #include <shader/prosper_shader_blur.hpp>
+
+import pragma.image;
 
 extern CEngine *c_engine;
 

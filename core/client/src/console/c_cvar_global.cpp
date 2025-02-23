@@ -55,10 +55,10 @@
 #include <pragma/entities/entity_iterator.hpp>
 #include <pragma/console/command_options.hpp>
 #include <fsys/ifile.hpp>
-#include <util_image.hpp>
-#include <util_image_buffer.hpp>
 #include <sharedutils/util_file.h>
 #include <prosper_window.hpp>
+
+import pragma.image;
 
 extern DLLCLIENT CEngine *c_engine;
 extern DLLCLIENT ClientState *client;

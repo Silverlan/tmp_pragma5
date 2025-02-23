@@ -31,9 +31,10 @@
 #include <pragma/asset/util_asset.hpp>
 #include <sharedutils/magic_enum.hpp>
 #include <sharedutils/util_path.hpp>
-#include <util_image.hpp>
 #include <cmaterial.h>
 #include <cmaterial_manager2.hpp>
+
+import pragma.image;
 
 extern DLLCLIENT CGame *c_game;
 extern DLLCLIENT ClientState *client;

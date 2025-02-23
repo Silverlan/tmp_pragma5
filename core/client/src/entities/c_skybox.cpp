@@ -20,14 +20,14 @@
 #include <pragma/asset/util_asset.hpp>
 #include <pragma/game/game_resources.hpp>
 #include <sharedutils/util_file.h>
-#include <util_image_buffer.hpp>
-#include <util_texture_info.hpp>
 #include <prosper_command_buffer.hpp>
 #include <pragma/lua/converters/game_type_converters_t.hpp>
 #include <image/prosper_image.hpp>
 #include <pragma/entities/entity_iterator.hpp>
 #include <buffers/prosper_buffer.hpp>
 #include <cmaterial.h>
+
+import pragma.image;
 
 extern DLLCLIENT CEngine *c_engine;
 extern DLLCLIENT ClientState *client;
@@ -333,8 +333,9 @@ REGISTER_CONVAR_CALLBACK_CL(sky_override, sky_override);
 #include "pragma/console/c_cvar_global_functions.h"
 #include <cmaterial_manager2.hpp>
 #include <texturemanager/texture_manager2.hpp>
-#include <util_image.hpp>
 #include <fsys/ifile.hpp>
+
+import pragma.image;
 
 enum class ConversionMode : uint8_t { CubemapToEquirectangular = 0, EquirectangularToCubemap };
 #include <wgui/types/wirect.h>

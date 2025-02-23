@@ -33,13 +33,12 @@
 #include <buffers/prosper_dynamic_resizable_buffer.hpp>
 #include <prosper_command_buffer.hpp>
 #include <image/prosper_sampler.hpp>
-#include <util_image_buffer.hpp>
-#include <util_image.hpp>
-#include <util_texture_info.hpp>
 #include <pragma/console/command_options.hpp>
 #include <pragma/util/util_game.hpp>
 #include <fsys/ifile.hpp>
 #include <wgui/types/wiroot.h>
+
+import pragma.image;
 
 extern DLLCLIENT CGame *c_game;
 extern DLLCLIENT ClientState *client;

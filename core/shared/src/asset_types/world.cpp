@@ -9,7 +9,8 @@
 #include "pragma/asset_types/world.hpp"
 #include "pragma/level/level_info.hpp"
 #include "pragma/model/model.h"
-#include <util_image_buffer.hpp>
+
+import pragma.image;
 
 extern DLLNETWORK Engine *engine;
 

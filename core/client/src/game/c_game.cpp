@@ -116,10 +116,10 @@
 #include <pragma/asset_types/world.hpp>
 #include <sharedutils/util_library.hpp>
 #include <shader/prosper_pipeline_loader.hpp>
-#include <util_image.hpp>
-#include <util_image_buffer.hpp>
 #include <udm.hpp>
 #include <prosper_window.hpp>
+
+import pragma.image;
 
 extern EntityClassMap<CBaseEntity> *g_ClientEntityFactories;
 extern ClientEntityNetworkMap *g_ClEntityNetworkMap;

@@ -9,7 +9,8 @@
 #define __PRAGMA_C_UTIL_HPP__
 
 #include "pragma/clientdefinitions.h"
-#include <util_image.hpp>
+
+import pragma.image;
 
 class CGame;
 namespace util {

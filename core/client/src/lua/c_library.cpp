@@ -60,9 +60,6 @@
 #include <pragma/input/inputhelper.h>
 #include <sharedutils/util_file.h>
 #include <sharedutils/util_path.hpp>
-#include <util_image.hpp>
-#include <util_image_buffer.hpp>
-#include <util_texture_info.hpp>
 #include <alsoundsystem.hpp>
 #include <luainterface.hpp>
 #include <cmaterialmanager.h>
@@ -79,6 +76,7 @@
 
 import pragma.string.unicode;
 import pragma.audio.util;
+import pragma.image;
 
 extern DLLCLIENT CGame *c_game;
 extern DLLCLIENT ClientState *client;

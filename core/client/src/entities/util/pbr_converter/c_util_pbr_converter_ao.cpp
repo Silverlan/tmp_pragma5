@@ -17,10 +17,10 @@
 #include <mathutil/transform.hpp>
 #include <sharedutils/util_file.h>
 #include <sharedutils/util_path.hpp>
-#include <util_image_buffer.hpp>
-#include <util_texture_info.hpp>
 #include <prosper_util.hpp>
 #include <image/prosper_sampler.hpp>
+
+import pragma.image;
 
 using namespace pragma;
 

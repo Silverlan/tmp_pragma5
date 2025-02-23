@@ -28,9 +28,10 @@
 #include <pragma/util/giblet_create_info.hpp>
 #include <pragma/asset_types/world.hpp>
 #include <pragma/model/model.h>
-#include <util_image_buffer.hpp>
 #include <prosper_window.hpp>
 #include <fsys/ifile.hpp>
+
+import pragma.image;
 
 extern DLLCLIENT CGame *c_game;
 extern DLLCLIENT ClientState *client;

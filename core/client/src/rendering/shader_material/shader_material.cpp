@@ -8,8 +8,9 @@
 #include "pragma/rendering/shader_material/shader_material.hpp"
 #include <pragma/logging.hpp>
 #include <cmaterial.h>
-#include <util_image.hpp>
 #include <mpParser.h>
+
+import pragma.image;
 
 static spdlog::logger &LOGGER = pragma::register_logger("shader_material");
 

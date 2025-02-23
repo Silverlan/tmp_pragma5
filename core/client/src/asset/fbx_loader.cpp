@@ -18,14 +18,13 @@
 #include <cmaterial.h>
 #include <ofbx.h>
 #include <span>
-#include <util_image.hpp>
-#include <util_image_buffer.hpp>
 #include <fsys/ifile.hpp>
 #include "pragma/asset/c_util_model.hpp"
 #include <cmaterial_manager2.hpp>
 #include <texturemanager/texture_manager2.hpp>
 
 import panima;
+import pragma.image;
 
 using namespace pragma::asset::fbx;
 extern DLLCLIENT CGame *c_game;

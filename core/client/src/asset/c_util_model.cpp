@@ -35,12 +35,13 @@
 #include <pragma/engine_version.h>
 #include <pragma/logging.hpp>
 #include <image/prosper_sampler.hpp>
-#include <util_image.hpp>
 #include <cmaterialmanager.h>
 #include <cmaterial.h>
 #include <udm.hpp>
 #include <pragma/model/animation/skeleton.hpp>
 #include <pragma/model/animation/bone.hpp>
+
+import pragma.image;
 
 extern DLLCLIENT CEngine *c_engine;
 extern DLLCLIENT ClientState *client;

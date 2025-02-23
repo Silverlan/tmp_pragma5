@@ -54,7 +54,6 @@
 #include "pragma/util/util_rgbcsv.hpp"
 #include "pragma/util/util_variable_type.hpp"
 #include "pragma/lua/classes/parallel_job.hpp"
-#include <util_image_buffer.hpp>
 #include <sharedutils/netpacket.hpp>
 #include <sharedutils/util_file.h>
 #include <sharedutils/scope_guard.h>
@@ -68,6 +67,7 @@
 
 import se_script;
 import util_zip;
+import pragma.image;
 
 extern DLLNETWORK Engine *engine;
 

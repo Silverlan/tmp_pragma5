@@ -72,7 +72,6 @@
 #include <pragma/util/transform.h>
 #include <sharedutils/datastream.h>
 #include <sharedutils/util_path.hpp>
-#include <util_image_buffer.hpp>
 #include <mathutil/umath_lighting.hpp>
 #include <luainterface.hpp>
 #include <luabind/iterator_policy.hpp>
@@ -84,6 +83,8 @@
 #include <sharedutils/magic_enum.hpp>
 #include <fsys/directory_watcher.h>
 #include <glm/gtx/matrix_decompose.hpp>
+
+import pragma.image;
 
 extern DLLNETWORK Engine *engine;
 

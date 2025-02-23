@@ -8,7 +8,6 @@
 #include "stdafx_client.h"
 #include "pragma/console/c_cvar_global_functions.h"
 #include "pragma/gui/wgui_luainterface.h"
-#include <util_image.hpp>
 #include <wgui/types/witext.h>
 #include <wgui/types/wirect.h>
 #include <wgui/types/wiroot.h>
@@ -20,6 +19,7 @@ extern DLLCLIENT ClientState *client;
 extern DLLCLIENT CGame *c_game;
 
 import pragma.string.unicode;
+import pragma.image;
 
 class GUIDebugCursorManager {
   public:

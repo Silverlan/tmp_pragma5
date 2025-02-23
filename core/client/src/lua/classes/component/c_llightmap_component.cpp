@@ -23,12 +23,13 @@
 #include <pragma/lua/lua_util_component.hpp>
 #include <pragma/lua/lua_util_component_stream.hpp>
 #include <pragma/lua/custom_constructor.hpp>
-#include <util_image_buffer.hpp>
 #include <prosper_command_buffer.hpp>
 #include <luabind/copy_policy.hpp>
 #include <texturemanager/texturemanager.h>
 #include <cmaterialmanager.h>
 #include <cmaterial_manager2.hpp>
+
+import pragma.image;
 
 extern DLLCLIENT CEngine *c_engine;
 

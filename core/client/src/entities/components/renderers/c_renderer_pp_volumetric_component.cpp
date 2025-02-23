@@ -31,7 +31,8 @@
 #include <image/prosper_msaa_texture.hpp>
 #include <image/prosper_render_target.hpp>
 #include <pragma/entities/entity_iterator.hpp>
-#include <util_image.hpp>
+
+import pragma.image;
 
 extern DLLCLIENT CGame *c_game;
 extern DLLCLIENT CEngine *c_engine;

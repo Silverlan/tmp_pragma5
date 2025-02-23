@@ -64,8 +64,6 @@ namespace pragma::string {
 #include <wgui/types/witext.h>
 #include <wgui/types/witext_tags.hpp>
 #include <wgui/types/wiroot.h>
-#include <util_image.hpp>
-#include <util_image_buffer.hpp>
 #include <queries/prosper_query_pool.hpp>
 #include <queries/prosper_timer_query.hpp>
 #include <pragma/asset/util_asset.hpp>
@@ -81,6 +79,7 @@ namespace pragma::string {
 
 import util_zip;
 import pragma.shadergraph;
+import pragma.image;
 extern "C" {
 void DLLCLIENT RunCEngine(int argc, char *argv[])
 {

@@ -13,8 +13,6 @@
 #include <prosper_context.hpp>
 #include <prosper_descriptor_set_group.hpp>
 #include <prosper_command_buffer.hpp>
-#include <util_image_buffer.hpp>
-#include <util_texture_info.hpp>
 #include <image/prosper_render_target.hpp>
 #include <image/prosper_texture.hpp>
 #include <image/prosper_image.hpp>
@@ -23,6 +21,8 @@
 #include <cmaterialmanager.h>
 #include <cmaterial_manager2.hpp>
 #include <texturemanager/texture.h>
+
+import pragma.image;
 
 extern DLLCLIENT CGame *c_game;
 extern DLLCLIENT ClientState *client;

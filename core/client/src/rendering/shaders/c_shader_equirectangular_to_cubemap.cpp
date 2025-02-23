@@ -13,9 +13,9 @@
 #include <image/prosper_sampler.hpp>
 #include <prosper_command_buffer.hpp>
 #include <prosper_descriptor_set_group.hpp>
-#include <util_image.hpp>
-#include <util_image_buffer.hpp>
 #include <fsys/ifile.hpp>
+
+import pragma.image;
 
 extern DLLCLIENT CEngine *c_engine;
 

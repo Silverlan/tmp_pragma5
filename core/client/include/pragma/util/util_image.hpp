@@ -10,7 +10,8 @@
 
 #include "pragma/clientdefinitions.h"
 #include <pragma/util/resource_watcher.h>
-#include <util_image_buffer.hpp>
+
+import pragma.image;
 
 namespace prosper {
 	class Image;

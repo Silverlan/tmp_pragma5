@@ -17,8 +17,6 @@
 #include <sharedutils/util_library.hpp>
 #include <sharedutils/util_file.h>
 #include <sharedutils/util_path.hpp>
-#include <util_image_buffer.hpp>
-#include <util_texture_info.hpp>
 #include <pragma/asset/util_asset.hpp>
 #include <pragma/console/sh_cmd.h>
 #include <cmaterialmanager.h>
@@ -49,6 +47,8 @@
 #include "pragma/console/c_cvar_global_functions.h"
 #include <pragma/entities/entity_component_manager_t.hpp>
 #include <pragma/lua/converters/game_type_converters_t.hpp>
+
+import pragma.image;
 
 extern DLLCLIENT CEngine *c_engine;
 extern DLLCLIENT ClientState *client;
