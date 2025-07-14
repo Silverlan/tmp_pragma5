@@ -105,6 +105,16 @@ Engine::Engine(int, char *[]) : CVarHandler(), m_logFile(nullptr), m_tickRate(En
 	debug::open_domain();
 #endif
 
+{
+    const char* old = std::getenv("LD_LIBRARY_PATH");
+    std::string newpath = "/mnt/LinuxData/pragma_develop/build/install/modules/chromium";
+    if (old && *old) {
+        newpath = std::string(old) + ":" + newpath;
+    }
+    // overwrite or create LD_LIBRARY_PATH
+    setenv("LD_LIBRARY_PATH", newpath.c_str(), /*overwrite=*/1);
+}
+
 	util::debug::set_lua_backtrace_function([this]() -> std::string {
 		// We can only get the Lua callstack from the main thread
 		if(std::this_thread::get_id() == GetMainThreadId()) {
